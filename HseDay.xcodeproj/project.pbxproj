@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B867BD7D1FC7033834C578A /* Pods_HseDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351A79DBD39D0B40E82F00D8 /* Pods_HseDay.framework */; };
+		E7188EDE1D5C874B00D5A5CF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7188EDD1D5C874B00D5A5CF /* MenuViewController.swift */; };
+		E72325E11D69112300EAFA22 /* organizationsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = E72325E01D69112300EAFA22 /* organizationsData.plist */; };
+		E72325E31D6916A200EAFA22 /* pinsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = E72325E21D6916A200EAFA22 /* pinsData.plist */; };
+		E72325EC1D6BA4CF00EAFA22 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72325EB1D6BA4CF00EAFA22 /* LoginViewController.swift */; };
+		E72325F71D6BB2F600EAFA22 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72325F61D6BB2F600EAFA22 /* Bolts.framework */; };
+		E72325F81D6BB2F900EAFA22 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72325F31D6BB2B500EAFA22 /* FBSDKCoreKit.framework */; };
+		E72325F91D6BB2FC00EAFA22 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72325F41D6BB2B500EAFA22 /* FBSDKLoginKit.framework */; };
+		E72325FA1D6BB2FF00EAFA22 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72325F51D6BB2B500EAFA22 /* FBSDKShareKit.framework */; };
+		E73E35171D442B2E00ADA896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E35161D442B2E00ADA896 /* AppDelegate.swift */; };
+		E73E35191D442B2E00ADA896 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E35181D442B2E00ADA896 /* MapViewController.swift */; };
+		E73E351F1D442B2E00ADA896 /* HseDay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E73E351D1D442B2E00ADA896 /* HseDay.xcdatamodeld */; };
+		E73E35211D442B2E00ADA896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73E35201D442B2E00ADA896 /* Assets.xcassets */; };
+		E73E35241D442B2E00ADA896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73E35221D442B2E00ADA896 /* LaunchScreen.storyboard */; };
+		E75B6F0E1D67EC6800EDB862 /* OrganizationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B6F0D1D67EC6800EDB862 /* OrganizationClass.swift */; };
+		E75B6F111D67EEC900EDB862 /* OrganizationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B6F101D67EEC900EDB862 /* OrganizationsTableViewCell.swift */; };
+		E75B6F131D67F0C800EDB862 /* OrganizationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B6F121D67F0C800EDB862 /* OrganizationsViewController.swift */; };
+		E770AB3E1D6112C4003B3170 /* TentPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E770AB3D1D6112C4003B3170 /* TentPinViewController.swift */; };
+		E773E3D81D52879000AADC45 /* FacultyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E773E3D71D52879000AADC45 /* FacultyClass.swift */; };
+		E773E3DA1D528C0800AADC45 /* FacultiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E773E3D91D528C0800AADC45 /* FacultiesTableViewCell.swift */; };
+		E784216F1D632ADD00ACD42B /* FacultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E784216E1D632ADD00ACD42B /* FacultyViewController.swift */; };
+		E78421711D63B8D200ACD42B /* ReadMoreTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78421701D63B8D200ACD42B /* ReadMoreTextView.swift */; };
+		E78421731D63E1CA00ACD42B /* SFUIDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E78421721D63E1C900ACD42B /* SFUIDisplay-Regular.otf */; };
+		E78B21401D6269F50030465F /* QuestPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B213F1D6269F50030465F /* QuestPinViewController.swift */; };
+		E78B21421D626A160030465F /* InfoPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B21411D626A160030465F /* InfoPinViewController.swift */; };
+		E79679251D50D07500E6B259 /* FacultiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79679241D50D07500E6B259 /* FacultiesTableViewController.swift */; };
+		E79E886F1D67F2F700D95ABC /* OrganizationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E886E1D67F2F700D95ABC /* OrganizationsTableViewController.swift */; };
+		E7C0FCBB1D68F48C0089E48A /* facultiesData.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7C0FCBA1D68F48C0089E48A /* facultiesData.plist */; };
+		E7DF6CC81D58B80C00BDE696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DF6CC61D58B80C00BDE696 /* Main.storyboard */; };
+		E7DF6CCA1D5965D100BDE696 /* PinInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DF6CC91D5965D100BDE696 /* PinInformation.swift */; };
+		E7F0EE061D49713E00077C07 /* SFUIDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = E73D327A1D4918B400656F72 /* SFUIDisplay-Medium.otf */; };
+		E7F0EE071D49714100077C07 /* SFUIDisplay-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = E73D327B1D4918B400656F72 /* SFUIDisplay-Ultralight.otf */; };
+		E7F0EE091D49720300077C07 /* SFUIDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7F0EE081D49720300077C07 /* SFUIDisplay-Light.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		351A79DBD39D0B40E82F00D8 /* Pods_HseDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HseDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCE8EACABB0C60445ADD9DC /* Pods-HseDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HseDay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HseDay/Pods-HseDay.debug.xcconfig"; sourceTree = "<group>"; };
+		E7188EDD1D5C874B00D5A5CF /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E72325E01D69112300EAFA22 /* organizationsData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = organizationsData.plist; sourceTree = "<group>"; };
+		E72325E21D6916A200EAFA22 /* pinsData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pinsData.plist; sourceTree = "<group>"; };
+		E72325EA1D6BA03B00EAFA22 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "HseDay/Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		E72325EB1D6BA4CF00EAFA22 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E72325F31D6BB2B500EAFA22 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = HseDay/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		E72325F41D6BB2B500EAFA22 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = HseDay/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		E72325F51D6BB2B500EAFA22 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = HseDay/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		E72325F61D6BB2F600EAFA22 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		E73D327A1D4918B400656F72 /* SFUIDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Medium.otf"; sourceTree = "<group>"; };
+		E73D327B1D4918B400656F72 /* SFUIDisplay-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Ultralight.otf"; sourceTree = "<group>"; };
+		E73E35131D442B2E00ADA896 /* HseDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HseDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73E35161D442B2E00ADA896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E73E35181D442B2E00ADA896 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E73E351E1D442B2E00ADA896 /* HseDay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HseDay.xcdatamodel; sourceTree = "<group>"; };
+		E73E35201D442B2E00ADA896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E73E35231D442B2E00ADA896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E73E35251D442B2E00ADA896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75B6F0D1D67EC6800EDB862 /* OrganizationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationClass.swift; sourceTree = "<group>"; };
+		E75B6F101D67EEC900EDB862 /* OrganizationsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationsTableViewCell.swift; sourceTree = "<group>"; };
+		E75B6F121D67F0C800EDB862 /* OrganizationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationsViewController.swift; sourceTree = "<group>"; };
+		E770AB3D1D6112C4003B3170 /* TentPinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TentPinViewController.swift; sourceTree = "<group>"; };
+		E773E3D71D52879000AADC45 /* FacultyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacultyClass.swift; sourceTree = "<group>"; };
+		E773E3D91D528C0800AADC45 /* FacultiesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacultiesTableViewCell.swift; sourceTree = "<group>"; };
+		E784216E1D632ADD00ACD42B /* FacultyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacultyViewController.swift; sourceTree = "<group>"; };
+		E78421701D63B8D200ACD42B /* ReadMoreTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadMoreTextView.swift; sourceTree = "<group>"; };
+		E78421721D63E1C900ACD42B /* SFUIDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Regular.otf"; sourceTree = "<group>"; };
+		E78B213F1D6269F50030465F /* QuestPinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestPinViewController.swift; sourceTree = "<group>"; };
+		E78B21411D626A160030465F /* InfoPinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPinViewController.swift; sourceTree = "<group>"; };
+		E79679241D50D07500E6B259 /* FacultiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacultiesTableViewController.swift; sourceTree = "<group>"; };
+		E79E886E1D67F2F700D95ABC /* OrganizationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationsTableViewController.swift; sourceTree = "<group>"; };
+		E7C0FCBA1D68F48C0089E48A /* facultiesData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = facultiesData.plist; sourceTree = "<group>"; };
+		E7DF6CC71D58B80C00BDE696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7DF6CC91D5965D100BDE696 /* PinInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinInformation.swift; sourceTree = "<group>"; };
+		E7F0EE081D49720300077C07 /* SFUIDisplay-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Light.otf"; sourceTree = "<group>"; };
+		E867460A66E823047FC2F9CD /* Pods-HseDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HseDay.release.xcconfig"; path = "Pods/Target Support Files/Pods-HseDay/Pods-HseDay.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E73E35101D442B2E00ADA896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B867BD7D1FC7033834C578A /* Pods_HseDay.framework in Frameworks */,
+				E72325F81D6BB2F900EAFA22 /* FBSDKCoreKit.framework in Frameworks */,
+				E72325FA1D6BB2FF00EAFA22 /* FBSDKShareKit.framework in Frameworks */,
+				E72325F91D6BB2FC00EAFA22 /* FBSDKLoginKit.framework in Frameworks */,
+				E72325F71D6BB2F600EAFA22 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66C45A448395575A3C892148 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DCE8EACABB0C60445ADD9DC /* Pods-HseDay.debug.xcconfig */,
+				E867460A66E823047FC2F9CD /* Pods-HseDay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E73D32771D49166500656F72 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E7F0EE081D49720300077C07 /* SFUIDisplay-Light.otf */,
+				E73D327A1D4918B400656F72 /* SFUIDisplay-Medium.otf */,
+				E73D327B1D4918B400656F72 /* SFUIDisplay-Ultralight.otf */,
+				E78421721D63E1C900ACD42B /* SFUIDisplay-Regular.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		E73E350A1D442B2D00ADA896 = {
+			isa = PBXGroup;
+			children = (
+				E73E35151D442B2E00ADA896 /* HseDay */,
+				E73E35141D442B2E00ADA896 /* Products */,
+				66C45A448395575A3C892148 /* Pods */,
+				F4018035A58A363E16BABB7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E73E35141D442B2E00ADA896 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E73E35131D442B2E00ADA896 /* HseDay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E73E35151D442B2E00ADA896 /* HseDay */ = {
+			isa = PBXGroup;
+			children = (
+				E73D32771D49166500656F72 /* Fonts */,
+				E73E35161D442B2E00ADA896 /* AppDelegate.swift */,
+				E72325EA1D6BA03B00EAFA22 /* Bridging-Header.h */,
+				E7188EDD1D5C874B00D5A5CF /* MenuViewController.swift */,
+				E7DF6CC61D58B80C00BDE696 /* Main.storyboard */,
+				E75B6F0A1D67EB2F00EDB862 /* Map */,
+				E75B6F091D67EAFE00EDB862 /* Faculties */,
+				E75B6F0F1D67EDFF00EDB862 /* Organizations */,
+				E73E35201D442B2E00ADA896 /* Assets.xcassets */,
+				E73E35221D442B2E00ADA896 /* LaunchScreen.storyboard */,
+				E73E35251D442B2E00ADA896 /* Info.plist */,
+				E73E351D1D442B2E00ADA896 /* HseDay.xcdatamodeld */,
+			);
+			path = HseDay;
+			sourceTree = "<group>";
+		};
+		E75B6F091D67EAFE00EDB862 /* Faculties */ = {
+			isa = PBXGroup;
+			children = (
+				E7C0FCBA1D68F48C0089E48A /* facultiesData.plist */,
+				E784216E1D632ADD00ACD42B /* FacultyViewController.swift */,
+				E79679241D50D07500E6B259 /* FacultiesTableViewController.swift */,
+				E773E3D91D528C0800AADC45 /* FacultiesTableViewCell.swift */,
+				E773E3D71D52879000AADC45 /* FacultyClass.swift */,
+			);
+			name = Faculties;
+			sourceTree = "<group>";
+		};
+		E75B6F0A1D67EB2F00EDB862 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E72325E21D6916A200EAFA22 /* pinsData.plist */,
+				E78B213F1D6269F50030465F /* QuestPinViewController.swift */,
+				E78B21411D626A160030465F /* InfoPinViewController.swift */,
+				E770AB3D1D6112C4003B3170 /* TentPinViewController.swift */,
+				E72325EB1D6BA4CF00EAFA22 /* LoginViewController.swift */,
+				E73E35181D442B2E00ADA896 /* MapViewController.swift */,
+				E78421701D63B8D200ACD42B /* ReadMoreTextView.swift */,
+				E7DF6CC91D5965D100BDE696 /* PinInformation.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		E75B6F0F1D67EDFF00EDB862 /* Organizations */ = {
+			isa = PBXGroup;
+			children = (
+				E72325E01D69112300EAFA22 /* organizationsData.plist */,
+				E75B6F121D67F0C800EDB862 /* OrganizationsViewController.swift */,
+				E79E886E1D67F2F700D95ABC /* OrganizationsTableViewController.swift */,
+				E75B6F101D67EEC900EDB862 /* OrganizationsTableViewCell.swift */,
+				E75B6F0D1D67EC6800EDB862 /* OrganizationClass.swift */,
+			);
+			name = Organizations;
+			sourceTree = "<group>";
+		};
+		F4018035A58A363E16BABB7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E72325F61D6BB2F600EAFA22 /* Bolts.framework */,
+				E72325F31D6BB2B500EAFA22 /* FBSDKCoreKit.framework */,
+				E72325F41D6BB2B500EAFA22 /* FBSDKLoginKit.framework */,
+				E72325F51D6BB2B500EAFA22 /* FBSDKShareKit.framework */,
+				351A79DBD39D0B40E82F00D8 /* Pods_HseDay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E73E35121D442B2E00ADA896 /* HseDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73E35281D442B2E00ADA896 /* Build configuration list for PBXNativeTarget "HseDay" */;
+			buildPhases = (
+				28B4972DB7B666E63A52A387 /* [CP] Check Pods Manifest.lock */,
+				E73E350F1D442B2E00ADA896 /* Sources */,
+				E73E35101D442B2E00ADA896 /* Frameworks */,
+				E73E35111D442B2E00ADA896 /* Resources */,
+				99B103D106D1369FCD916B06 /* [CP] Embed Pods Frameworks */,
+				4CB8E64535E160E5707728A0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HseDay;
+			productName = HseDay;
+			productReference = E73E35131D442B2E00ADA896 /* HseDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E73E350B1D442B2E00ADA896 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Никита Римский";
+				TargetAttributes = {
+					E73E35121D442B2E00ADA896 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = V858TEX325;
+					};
+				};
+			};
+			buildConfigurationList = E73E350E1D442B2E00ADA896 /* Build configuration list for PBXProject "HseDay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E73E350A1D442B2D00ADA896;
+			productRefGroup = E73E35141D442B2E00ADA896 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E73E35121D442B2E00ADA896 /* HseDay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E73E35111D442B2E00ADA896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72325E31D6916A200EAFA22 /* pinsData.plist in Resources */,
+				E78421731D63E1CA00ACD42B /* SFUIDisplay-Regular.otf in Resources */,
+				E7F0EE061D49713E00077C07 /* SFUIDisplay-Medium.otf in Resources */,
+				E7F0EE071D49714100077C07 /* SFUIDisplay-Ultralight.otf in Resources */,
+				E72325E11D69112300EAFA22 /* organizationsData.plist in Resources */,
+				E73E35241D442B2E00ADA896 /* LaunchScreen.storyboard in Resources */,
+				E7DF6CC81D58B80C00BDE696 /* Main.storyboard in Resources */,
+				E73E35211D442B2E00ADA896 /* Assets.xcassets in Resources */,
+				E7C0FCBB1D68F48C0089E48A /* facultiesData.plist in Resources */,
+				E7F0EE091D49720300077C07 /* SFUIDisplay-Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28B4972DB7B666E63A52A387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4CB8E64535E160E5707728A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HseDay/Pods-HseDay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99B103D106D1369FCD916B06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HseDay/Pods-HseDay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E73E350F1D442B2E00ADA896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72325EC1D6BA4CF00EAFA22 /* LoginViewController.swift in Sources */,
+				E78B21421D626A160030465F /* InfoPinViewController.swift in Sources */,
+				E784216F1D632ADD00ACD42B /* FacultyViewController.swift in Sources */,
+				E773E3D81D52879000AADC45 /* FacultyClass.swift in Sources */,
+				E73E35191D442B2E00ADA896 /* MapViewController.swift in Sources */,
+				E79679251D50D07500E6B259 /* FacultiesTableViewController.swift in Sources */,
+				E7188EDE1D5C874B00D5A5CF /* MenuViewController.swift in Sources */,
+				E73E351F1D442B2E00ADA896 /* HseDay.xcdatamodeld in Sources */,
+				E75B6F0E1D67EC6800EDB862 /* OrganizationClass.swift in Sources */,
+				E78B21401D6269F50030465F /* QuestPinViewController.swift in Sources */,
+				E7DF6CCA1D5965D100BDE696 /* PinInformation.swift in Sources */,
+				E773E3DA1D528C0800AADC45 /* FacultiesTableViewCell.swift in Sources */,
+				E75B6F111D67EEC900EDB862 /* OrganizationsTableViewCell.swift in Sources */,
+				E78421711D63B8D200ACD42B /* ReadMoreTextView.swift in Sources */,
+				E79E886F1D67F2F700D95ABC /* OrganizationsTableViewController.swift in Sources */,
+				E75B6F131D67F0C800EDB862 /* OrganizationsViewController.swift in Sources */,
+				E73E35171D442B2E00ADA896 /* AppDelegate.swift in Sources */,
+				E770AB3E1D6112C4003B3170 /* TentPinViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E73E35221D442B2E00ADA896 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73E35231D442B2E00ADA896 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E7DF6CC61D58B80C00BDE696 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7DF6CC71D58B80C00BDE696 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E73E35261D442B2E00ADA896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E73E35271D442B2E00ADA896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E73E35291D442B2E00ADA896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DCE8EACABB0C60445ADD9DC /* Pods-HseDay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HseDay",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HseDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.nikita.HseDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HseDay/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		E73E352A1D442B2E00ADA896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E867460A66E823047FC2F9CD /* Pods-HseDay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HseDay",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HseDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.nikita.HseDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HseDay/Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E73E350E1D442B2E00ADA896 /* Build configuration list for PBXProject "HseDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73E35261D442B2E00ADA896 /* Debug */,
+				E73E35271D442B2E00ADA896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73E35281D442B2E00ADA896 /* Build configuration list for PBXNativeTarget "HseDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73E35291D442B2E00ADA896 /* Debug */,
+				E73E352A1D442B2E00ADA896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E73E351D1D442B2E00ADA896 /* HseDay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E73E351E1D442B2E00ADA896 /* HseDay.xcdatamodel */,
+			);
+			currentVersion = E73E351E1D442B2E00ADA896 /* HseDay.xcdatamodel */;
+			path = HseDay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E73E350B1D442B2E00ADA896 /* Project object */;
+}

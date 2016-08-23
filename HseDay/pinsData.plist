@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>Шатер</string>
+		<key>xPosition</key>
+		<integer>1941</integer>
+		<key>yPosition</key>
+		<integer>1385</integer>
+		<key>annotation</key>
+		<string>Шатер факультета бизнеса и менеджмента</string>
+		<key>infoPageImage</key>
+		<string>mainPhoto</string>
+		<key>questPageTextOrFacOrgName</key>
+		<string>Факультет бизнеса и менеджмента</string>
+		<key>questPassword</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Лист</string>
+		<key>xPosition</key>
+		<integer>1841</integer>
+		<key>yPosition</key>
+		<integer>2000</integer>
+		<key>annotation</key>
+		<string>Философские дебаты</string>
+		<key>infoPageImage</key>
+		<string>mainPhoto</string>
+		<key>questPageTextOrFacOrgName</key>
+		<string></string>
+		<key>questPassword</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Шатер</string>
+		<key>xPosition</key>
+		<integer>841</integer>
+		<key>yPosition</key>
+		<integer>2358</integer>
+		<key>annotation</key>
+		<string>Шатер организации Бизнес в стиле .ру</string>
+		<key>infoPageImage</key>
+		<string>mainPhoto</string>
+		<key>questPageTextOrFacOrgName</key>
+		<string>Бизнес в стиле .ру</string>
+		<key>questPassword</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Первак</string>
+		<key>xPosition</key>
+		<integer>2009</integer>
+		<key>yPosition</key>
+		<integer>790</integer>
+		<key>annotation</key>
+		<string>Второй этап квеста</string>
+		<key>infoPageImage</key>
+		<string>mainPhoto</string>
+		<key>questPageTextOrFacOrgName</key>
+		<string>Президент Казахстана Нурсултан Назарбаев заявил, что украинский лидер Петр Порошенко в телефонном разговоре рассказал о готовности к компромиссам.</string>
+		<key>questPassword</key>
+		<string>второй</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Первак</string>
+		<key>xPosition</key>
+		<integer>2300</integer>
+		<key>yPosition</key>
+		<integer>1000</integer>
+		<key>annotation</key>
+		<string>Первый этап квеста</string>
+		<key>infoPageImage</key>
+		<string>mainPhoto</string>
+		<key>questPageTextOrFacOrgName</key>
+		<string>Президент Казахстана Нурсултан Назарбаев заявил, что украинский лидер Петр Порошенко в телефонном разговоре рассказал о готовности к компромиссам и о том, что мешает ему принять закон об особом статусе Донбасса.</string>
+		<key>questPassword</key>
+		<string>первый</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Флаг</string>
+		<key>xPosition</key>
+		<integer>2500</integer>
+		<key>yPosition</key>
+		<integer>1500</integer>
+		<key>annotation</key>
+		<string>Супер забег</string>
+		<key>infoPageImage</key>
+		<string>mainPhoto</string>
+		<key>questPageTextOrFacOrgName</key>
+		<string></string>
+		<key>questPassword</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>Мяч</string>
+		<key>xPosition</key>
+		<integer>2700</integer>
+		<key>yPosition</key>
+		<integer>900</integer>
+		<key>annotation</key>
+		<string>Чемпионат по футболу</string>
+		<key>infoPageImage</key>
+		<string>mainPhoto</string>
+		<key>questPageTextOrFacOrgName</key>
+		<string></string>
+		<key>questPassword</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

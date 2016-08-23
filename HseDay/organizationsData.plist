@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Бизнес в стиле</string>
+		<key>pageImage</key>
+		<string>mainPhoto</string>
+		<key>pageInfo</key>
+		<string>Президент Казахстана Нурсултан Назарбаев заявил, что украинский лидер Петр Порошенко в телефонном разговоре рассказал о готовности к компромиссам и о том, что мешает ему принять закон об особом статусе Донбасса.</string>
+		<key>logo</key>
+		<string>logo</string>
+		<key>webPage</key>
+		<string>google.com</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Бизнес .ру</string>
+		<key>pageImage</key>
+		<string>mainPhoto</string>
+		<key>pageInfo</key>
+		<string>Президент Казахстана Нурсултан Назарбаев заявил, что украинский лидер Петр Порошенко в телефонном разговоре рассказал о готовности к компромиссам и о том, что мешает ему принять закон об особом статусе Донбасса.</string>
+		<key>logo</key>
+		<string>logo</string>
+		<key>webPage</key>
+		<string>google.com</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Студенческий актив</string>
+		<key>pageImage</key>
+		<string>mainPhoto</string>
+		<key>pageInfo</key>
+		<string>Президент Казахстана Нурсултан Назарбаев заявил, что украинский лидер Петр Порошенко в телефонном разговоре рассказал о готовности к компромиссам и о том, что мешает ему принять закон об особом статусе Донбасса.</string>
+		<key>logo</key>
+		<string>logo</string>
+		<key>webPage</key>
+		<string>google.com</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Бизнес в стиле .ру</string>
+		<key>pageImage</key>
+		<string>mainPhoto</string>
+		<key>pageInfo</key>
+		<string>Президент Казахстана Нурсултан Назарбаев заявил, что украинский лидер Петр Порошенко в телефонном разговоре рассказал о готовности к компромиссам и о том, что мешает ему принять закон об особом статусе Донбасса.</string>
+		<key>logo</key>
+		<string>logo</string>
+		<key>webPage</key>
+		<string>google.com</string>
+	</dict>
+</array>
+</plist>

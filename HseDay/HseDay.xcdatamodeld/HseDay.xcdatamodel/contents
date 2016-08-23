@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="Faculty" representedClassName=".Faculty" syncable="YES">
+        <attribute name="directions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pageImage" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="pageInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webPage" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Organization" representedClassName=".Organization" syncable="YES">
+        <attribute name="logo" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pageImage" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="pageInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webPage" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Pins" representedClassName=".PinInformation" syncable="YES">
+        <attribute name="annotation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="infoPageImage" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="questPageTextOrFacOrgName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questPassword" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xPosition" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="yPosition" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Faculty" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Organization" positionX="-63" positionY="18" width="128" height="120"/>
+        <element name="Pins" positionX="-54" positionY="45" width="128" height="150"/>
+    </elements>
+</model>
